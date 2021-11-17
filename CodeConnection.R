@@ -19,5 +19,6 @@ DataMarket <-
 BDD<-DataMarket$DataMarketing$select()
 BDD_pour_PCA<-BDD[,2:12]
 summary(BDD_pour_PCA)
-PCA(BDD_pour_PCA, scale.unit = TRUE, ncp = 5, graph = TRUE)
+res.pca<-PCA(BDD_pour_PCA, scale.unit = TRUE, ncp = 5, graph = TRUE)
+fviz_pca_ind (res.pca)
 
