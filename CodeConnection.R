@@ -2,7 +2,8 @@
 # Creation d un fichier d environnement dans le R home qui contient la clef API de Airtable pour cette table.
 #(base) guillaume@guillaume-Latitude-E5400:~$ more .Renviron
 # Aller sur le lien suivant pour accéder à l'API page https://airtable.com/account (la clef API est à copier coller)
-#AIRTABLE_API_KEY=XXXXXXXXXX
+#AIRTABLE_API_KEY=XXXXXXXXX
+#
 
 install.packages(c("FactoMineR", "factoextra"))
 library("FactoMineR")
